@@ -33,7 +33,7 @@
       "Sid": "S3ListBuckets",
       "Effect": "Allow",
       "Action": "s3:ListBucket",
-      "Resource": "arn:aws:s3:::rag-cache-*"
+      "Resource": "arn:aws:s3:::rag-*"
     },
     {
       "Sid": "S3ObjectAccess",
@@ -42,7 +42,7 @@
         "s3:GetObject",
         "s3:PutObject"
       ],
-      "Resource": "arn:aws:s3:::rag-cache-*/*"
+      "Resource": "arn:aws:s3:::rag-*/*"
     },
     {
       "Sid": "CloudWatchLogsRead",

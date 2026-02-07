@@ -1240,5 +1240,3 @@ curl http://localhost:8000/cache/query/stats
 ---
 
 **Built with ❤️ using FastAPI, OpenAI, Pinecone, Vanna.ai, Docling, Upstash Redis, and AWS Lambda**
-#   t e x t 2 S Q L A g e n t - p r o j e c t  
- 

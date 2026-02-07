@@ -53,6 +53,8 @@ class Settings(BaseSettings):
 
     # Storage Backend Configuration
     STORAGE_BACKEND: str = "s3"  # Options: "local", "s3"
+    # UPLOAD_DIR: str = "data/uploads"
+    # CACHE_DIR: str = "data/cached_chunks"
 
     # Storage paths (auto-detects Lambda environment)
     @property
